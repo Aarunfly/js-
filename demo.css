@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.wrapper{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin:80px auto 80px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.wrapper .queue{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3500px;
+    height: 500px;
+
+}
+.wrapper .queue li{
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+.wrapper .queue li img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper .btn{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    text-align: center;
+    opacity: 0.2;
+    cursor: pointer;
+
+}
+.wrapper:hover .btn{
+    opacity: 0.4;
+}
+.wrapper .leftbtn{
+ left: 10px;
+}
+.wrapper .rightbtn{
+    right: 10px;
+}
+.wrapper .sliderIndex{
+    position: absolute;
+    width: 100%;
+     bottom: 10px;
+     text-align: center;
+}
+.wrapper .sliderIndex span{ 
+   display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:#ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+   
+}
+.wrapper .sliderIndex  .active{
+    background-color:#F40;
+}
